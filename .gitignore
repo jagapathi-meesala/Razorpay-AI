@@ -1,0 +1,50 @@
+# ─── Python ───────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+*.whl
+
+# ─── Virtual environments ──────────────────────
+venv/
+.venv/
+env/
+ENV/
+
+# ─── Environment & Secrets ────────────────────
+.env
+.env.local
+.env.*.local
+*.env
+
+# ─── Databases ────────────────────────────────
+*.db
+*.sqlite
+*.sqlite3
+
+# ─── Node / Frontend ──────────────────────────
+node_modules/
+frontend/dist/
+frontend/.cache/
+*.log
+
+# ─── IDE ──────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# ─── ML Models (large binary files) ──────────
+ml/models/*.pkl
+ml/models/*.joblib
+ml/models/*.h5
+
+# ─── Misc ─────────────────────────────────────
+*.bak
+*.tmp
