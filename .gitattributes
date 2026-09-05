@@ -1,0 +1,2 @@
+yarn.js linguist-vendored=true
+*.json linguist-documentation=true
